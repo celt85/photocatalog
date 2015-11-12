@@ -16,7 +16,12 @@
             </h1>
         </header>
         <section class="page-section" aria-label="Main content" role="main">
-            <p>Photo browser</p>
+            <div>
+                <img id="photoContainer" src="" />
+            </div>
+            <div data-win-control="WinJS.UI.AppBar" data-win-options="{ placement: 'bottom' }">
+                <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id: 'addPhotoCmd',icon: 'add', lable: 'Add photo', tooltip: 'Add photo', section: 'global', onclick: Application.loadPictureFromDisc }" type='button'></button>
+            </div>
         </section>
     </div>
 </body>
