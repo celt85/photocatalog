@@ -122,7 +122,7 @@
                     if (this.pageControl && this.pageControl.updateLayout) {
                         this.pageControl.updateLayout.call(this.pageControl, this.pageElement);
                     }
-                },
+                }
             }
         )
     });

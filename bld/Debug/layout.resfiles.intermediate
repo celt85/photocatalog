@@ -12,6 +12,9 @@ pages\camera\camera.js
 pages\home\home.css
 pages\home\home.html
 pages\home\home.js
+pages\photobrowser\photobrowser.css
+pages\photobrowser\photobrowser.html
+pages\photobrowser\photobrowser.js
 start.html
 WinJS\css\ui-dark.css
 WinJS\css\ui-dark.min.css

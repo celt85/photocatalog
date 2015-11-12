@@ -63,6 +63,9 @@
     <Content Include="js\startup.js" />
     <Content Include="js\navigator.js" />
     <Content Include="packages.config" />
+    <Content Include="pages\photobrowser\photobrowser.css" />
+    <Content Include="pages\photobrowser\photobrowser.html" />
+    <Content Include="pages\photobrowser\photobrowser.js" />
     <Content Include="pages\camera\camera.css" />
     <Content Include="pages\camera\camera.html" />
     <Content Include="pages\camera\camera.js" />

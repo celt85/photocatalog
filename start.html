@@ -1,28 +1,28 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>PhotoCatalog</title>
+	<meta charset="utf-8" />
+	<title>PhotoCatalog</title>
 
-    <!-- WinJS references -->
-    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
-    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
-    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+	<!-- WinJS references -->
+	<link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+	<script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+	<script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
 
-    <!-- PhotoCatalog references -->
-    <link href="/css/styles.css" rel="stylesheet" />
-    <script src="/js/startup.js"></script>
-    <script src="/js/navigator.js"></script>
+	<!-- PhotoCatalog references -->
+	<link href="/css/styles.css" rel="stylesheet" />
+	<script src="/js/startup.js"></script>
+	<script src="/js/navigator.js"></script>
 </head>
 <body>
-    <h1 class="ws-h1">Hello world </h1>
-    <div id="contentHost" data-win-control="Application.PageControlNavigator" data-win-options="{ home: 'home' }"> </div>
+	<div id="contentHost" data-win-control="Application.PageControlNavigator" data-win-options="{ home: 'home' }"> </div>
 
-    <div id="navBar" data-win-control="WinJS.UI.NavBar" data-win-options="{placement: 'bottom', stick: trie}">
-        <div id="navBarContainer" data-win-control="WinJS.UI.NavBarContainer">
-            <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{id:'browser', label:'Browse photos', icon:'browsephotos', location:'home'}"></div>
-            <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{id:'camera', label:'Take a photo', icon:'camera', location:'camera'}"></div>
-        </div>
-    </div>
+	<div id="navBar" data-win-control="WinJS.UI.NavBar" data-win-options="{ placement: 'top' }">
+		<div id="navBarContainer" data-win-control="WinJS.UI.NavBarContainer">
+			<div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{id:'home', label:'Home', icon:'home', location:'home'}"></div>
+			<div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{id:'browser', label:'Browse photos', icon:'browsephotos', location:'photobrowser'}"></div>
+			<div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{id:'camera', label:'Take a photo', icon:'camera', location:'camera'}"></div>
+		</div>
+	</div>
 </body>
 </html>
