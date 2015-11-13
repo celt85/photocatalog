@@ -1,8 +1,8 @@
 ﻿(function () {
 	WinJS.Namespace.define("Application", {
-		loadPicture: function () {
-			var photoCOntainer = document.querySelector('#photoContainer');
-
+		loadPicture: function (container) {
+			var photoContainer = container || document.createElement("img");
+			
 			var filePicker = Windows.Storage.Pickers.FileOpenPicker();
 
 			filePicker.viewMode = Windows.Storage.Pickers.PickerViewMode.thumbnail;
