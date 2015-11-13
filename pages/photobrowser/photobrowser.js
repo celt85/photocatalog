@@ -9,7 +9,7 @@
         ready: function (element, options) {
             // TODO: Initialize the page here.
 
-            //document.querySelector('#addPhotoCmd').addEventListener('click', this.loadPictureFromDisc, false);
+            document.querySelector('#addPhotoCmd').addEventListener('click', Application.loadPicture, false);
 
         },
 
