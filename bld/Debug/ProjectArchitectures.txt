@@ -1,1 +1,1 @@
-C:\Users\mbalda\Documents\Projects\Own\photocatalog\PhotoCatalog.jsproj;neutral
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\PhotoCatalog.jsproj;neutral

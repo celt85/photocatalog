@@ -17,7 +17,24 @@
 			</h1>
 		</header>
 		<section class="page-section" aria-label="Main content" role="main">
-			<div>
+			
+            <!-- Template for ListView in Section 2 -->
+            <div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template">
+                <div class="smallListIconTextItem">
+                    <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture" />
+                    <div class="smallListIconTextItem-Detail">
+                        <h4 class="win-h4" data-win-bind="textContent: title"></h4>
+                        <h6 class="win-h6" data-win-bind="textContent: text"></h6>
+                    </div>
+                </div>
+            </div>
+
+            <div data-win-control="WinJS.UI.Hub">
+                <div class="hero" data-win-control="WinJS.UI.HubSection" data-win-options="{header: 'Hero'}"><img id="photoContainer" src="" /></div>
+                <div data-win-control="WinJS.UI.HubSection" data-win-options="{header: 'Current image', isHeaderStatic: true}"></div>
+            </div>
+            
+            <div>
 				<img id="photoContainer" src="" />
 			</div>
 			<div data-win-control="WinJS.UI.AppBar" data-win-options="{ placement: 'bottom' }">
