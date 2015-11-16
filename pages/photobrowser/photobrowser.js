@@ -1,7 +1,7 @@
-﻿// For an introduction to the Page Control template, see the following documentation:
-// http://go.microsoft.com/fwlink/?LinkId=232511
-(function () {
+﻿(function () {
     "use strict";
+
+    var viewData;
 
     WinJS.UI.Pages.define("/pages/photobrowser/photobrowser.html", {
         // This function is called whenever a user navigates to this page. It
@@ -10,7 +10,6 @@
             // TODO: Initialize the page here.
 
         	document.querySelector('#addPhotoCmd').addEventListener('click', function() {Application.loadPicture(document.querySelector('#photoContainer'))}, false);
-
         },
 
         unload: function () {
@@ -23,6 +22,26 @@
             // TODO: Respond to changes in layout.
         },
 
-        
+        _populateData: function () {
+            var dir = Windows.Storage.KnownFolders.picturesLibrary;
+            var data = new Array();
+
+            dir.getFilesAsync().then(function (files) {
+                files.forEach(function (file) {
+                    var item = { fileName: file.name, picture: file.path };
+                    data.push(item);
+                });
+
+                viewData = new WinJS.Binding.List(data);
+            });
+        },
+
+        viewData: {
+            get: function () {
+                this._populateData();
+
+                return viewData;
+            }
+        }
     });
 })();
