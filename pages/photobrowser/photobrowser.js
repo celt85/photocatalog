@@ -22,19 +22,26 @@
         },
 
         _populateData: function () {
-            var dir = Windows.Storage.KnownFolders.picturesLibrary;
+            var picturesLibrary = Windows.Storage.KnownFolders.picturesLibrary;
             var data = new Array();
 
-            dir.getFilesAsync().then(function (files) {
-                files.forEach(function (file) {
+            var options = new Windows.Storage.Search.QueryOptions(Windows.Storage.Search.CommonFileQuery.orderByName, [".jpg", ".jpeg", ".png"]);
+            options.folderDepth = Windows.Storage.Search.FolderDepth.shallow;
 
-                    var pictureUrl = window.URL.createObjectURL(file, { oneTimeOnly: true });
-                    var item = { fileName: file.name, picture: pictureUrl };
-                    data.push(item);
+            if (picturesLibrary.areQueryOptionsSupported(options)) {
+                var query = picturesLibrary.createFileQueryWithOptions(options);
+
+                picturesLibrary.getFilesAsync().then(function (files) {
+                    files.forEach(function (file) {
+
+                        var pictureUrl = window.URL.createObjectURL(file, { oneTimeOnly: true });
+                        var item = { fileName: file.name, picture: pictureUrl };
+                        data.push(item);
+                    });
+
+                    document.querySelector('#picturesListView').winControl.itemDataSource = new WinJS.Binding.List(data).dataSource;
                 });
-
-                document.querySelector('#picturesListView').winControl.itemDataSource = new WinJS.Binding.List(data).dataSource;
-            });
+            }
         },
 
         _itemSelected: function (e) {
