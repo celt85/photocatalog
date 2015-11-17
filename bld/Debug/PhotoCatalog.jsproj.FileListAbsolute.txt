@@ -1,18 +1,3 @@
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bin\Debug\ReverseMap\resources.pri
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bin\Debug\AppxManifest.xml
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bin\Debug\PhotoCatalog.build.appxrecipe
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\priconfig.xml
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\priconfig.xml.intermediate
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\layout.resfiles
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\layout.resfiles.intermediate
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\resources.resfiles
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\resources.resfiles.intermediate
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\pri.resfiles
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\pri.resfiles.intermediate
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\qualifiers.txt
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\qualifiers.txt.intermediate
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\MultipleQualifiersPerDimensionFound.txt
-c:\users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\ProjectArchitectures.txt
 C:\Users\mbalda\Documents\Projects\Own\photocatalog\bin\Debug\ReverseMap\resources.pri
 C:\Users\mbalda\Documents\Projects\Own\photocatalog\bin\Debug\AppxManifest.xml
 C:\Users\mbalda\Documents\Projects\Own\photocatalog\bin\Debug\PhotoCatalog.build.appxrecipe
@@ -28,3 +13,18 @@ C:\Users\mbalda\Documents\Projects\Own\photocatalog\bld\Debug\qualifiers.txt
 C:\Users\mbalda\Documents\Projects\Own\photocatalog\bld\Debug\qualifiers.txt.intermediate
 C:\Users\mbalda\Documents\Projects\Own\photocatalog\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\mbalda\Documents\Projects\Own\photocatalog\bld\Debug\ProjectArchitectures.txt
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bin\Debug\ReverseMap\resources.pri
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bin\Debug\AppxManifest.xml
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bin\Debug\PhotoCatalog.build.appxrecipe
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\priconfig.xml
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\priconfig.xml.intermediate
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\layout.resfiles
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\layout.resfiles.intermediate
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\resources.resfiles
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\resources.resfiles.intermediate
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\pri.resfiles
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\pri.resfiles.intermediate
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\qualifiers.txt
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\qualifiers.txt.intermediate
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\marci_000\documents\visual studio 2013\Projects\PhotoCatalog\bld\Debug\ProjectArchitectures.txt

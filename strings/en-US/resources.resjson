@@ -8,5 +8,5 @@
 	"_homePage.content.source"		: "Home page",
 
 	"photoBrowser.title"			: "All your photos are over here",
-	"test" : "test header"
+	"photoBrowser.allPictures"		: "Pictures"
 }

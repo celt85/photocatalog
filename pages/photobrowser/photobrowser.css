@@ -19,6 +19,16 @@
     visibility: hidden;
 }
 
+.hero {
+    height: 600px;
+    width: 800px;
+}
+
+.hero img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .picturesListView {
     display: flex;
     flex-flow: row wrap;
