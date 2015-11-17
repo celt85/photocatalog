@@ -13,7 +13,7 @@
 		<header class="page-header" aria-label="Header content" role="banner">
 			<button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
 			<h1 class="titlearea win-type-ellipsis">
-				<span class="pagetitle">All your photos are over here</span>
+                <span class="pagetitle" data-win-res="{textContent: 'photoBrowser.title'}"></span>
 			</h1>
 		</header>
 		<section class="page-section" aria-label="Main content" role="main">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
 
-                <div data-win-control="WinJS.UI.HubSection" data-win-options="{header: 'Loaded picture'}">
+                <div data-win-control="WinJS.UI.HubSection" data-win-options="{header: 'Loaded picture'}" data-win-res="{attributes : { header : 'test' }}">
                     <img id="photoContainer" />
                 </div>
             </div>

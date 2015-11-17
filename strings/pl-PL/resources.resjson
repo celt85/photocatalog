@@ -1,0 +1,12 @@
+﻿// For details on localizing a Windows app, see: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    "homePage.title"				: "Witaj. Oto twój katalog zdjęć.",
+    "_homePage.title.comment"		: "This is a comment to the localizer",
+
+	"homePage.content"				: "Porzućcie wszelką nadzieję, wszyscy, którzy tu wchodzicie.",
+	"_homePage.content.source"		: "Home page",
+
+	"photoBrowser.title"			: "Twoje zdjęcia",
+	"test" : "test :)"
+}

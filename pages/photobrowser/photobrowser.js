@@ -2,22 +2,17 @@
     "use strict";
 
     WinJS.UI.Pages.define("/pages/photobrowser/photobrowser.html", {
-        // This function is called whenever a user navigates to this page. It
-        // populates the page elements with the app's data.
         ready: function (element, options) {
-            // TODO: Initialize the page here.
-            this._populateData();
+            WinJS.Resources.processAll();
 
-           // var listView = element.querySelector("#picturesListView");
+            this._populateData();
 
             var that = this;
             document.querySelector('#addPhotoCmd').addEventListener('click', function () { Application.loadPicture(document.querySelector('#photoContainer')) }, false);
             document.querySelector('#picturesListView').addEventListener('iteminvoked', that._itemSelected, false);
-           // listView.addEventListener('iteminvoked', itemSelected, false);
         },
 
         unload: function () {
-            // TODO: Respond to navigations away from this page.
         },
 
         updateLayout: function (element) {

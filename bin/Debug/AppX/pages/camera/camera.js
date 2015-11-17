@@ -7,11 +7,10 @@
 	var that;
 
 	WinJS.UI.Pages.define("/pages/camera/camera.html", {
-		// This function is called whenever a user navigates to this page. It
-		// populates the page elements with the app's data.
 		ready: function (element, options) {
-			// TODO: Initialize the page here.
-			_photoContainer = element.querySelector("#photoContainer");
+		    WinJS.Resources.processAll();
+
+		    _photoContainer = element.querySelector("#photoContainer");
 
 			element.querySelector("#takePicture").onclick = this._takePicture;
 
@@ -29,9 +28,10 @@
 		},
 
 		_savePicture: function (fileToSave) {
-			var folder = Windows.Storage.KnownFolders.picturesLibrary;
+			var directory = Windows.Storage.KnownFolders.picturesLibrary;
+			var fileName = "photo.jpg";
 
-			folder.createFileAsync("photo.jpg", Windows.Storage.CreationCollisionOption.generateUniqueName)
+		    directory.createFileAsync(fileName, Windows.Storage.CreationCollisionOption.generateUniqueName)
 				.then(function (file) {
 					fileToSave.copyAndReplaceAsync(file);
 				});
