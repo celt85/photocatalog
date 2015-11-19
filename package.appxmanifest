@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="start.html">
-      <m2:VisualElements DisplayName="PhotoCatalog" Description="PhotoCatalog" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+      <m2:VisualElements DisplayName="PhotoCatalog" Description="PhotoCatalog" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\fpLogo.png" Square30x30Logo="images\SmallLogo.png">
         <m2:SplashScreen Image="images\splashscreen.png" />
       </m2:VisualElements>
     </Application>
